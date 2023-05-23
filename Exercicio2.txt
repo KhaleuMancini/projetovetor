@@ -1,0 +1,22 @@
+DECLARAÇÃO
+	fila[10]: inteiro;
+	preferencial: texto;
+	nrpref: inteiro;
+	nrnormal: inteiro;
+	i: inteiro;
+	
+	INICIO:
+	npref = 0
+	para i <- 0 até 9 passo 1 faça
+	escreva ("Pessoa" [i] "é atendimento preferencial?"
+	leia (preferencial)
+	se (preferencial = "Sim") então
+		fila[nrpref-1] <- i
+		nrpref <- nrpref + 1
+	senão:
+		fila[] <- i
+	
+	se (i = 9) então
+		escreva ("a fila está lotada, aguarde")
+		para i <- 0 até 9
+		
