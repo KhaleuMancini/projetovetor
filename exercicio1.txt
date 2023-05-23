@@ -1,8 +1,5 @@
 DECLARAÇÃO :
 	Lista[10]: Inteiro;
-	cont: Inteiro;
-	i: Inteiro;
-	
 INICIO
 	cont <- 0;
 	i <- 0;
