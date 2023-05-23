@@ -1,0 +1,13 @@
+DECLARAÇÃO :
+	Lista[10]: Inteiro;
+	cont: Inteiro;
+	i: Inteiro;
+	
+INICIO
+	cont <- 0;
+	i <- 0;
+	
+	PARA i <- 0 até 10 passo 1 faça
+		Lista[i] <- 1
+		FIM
+	
