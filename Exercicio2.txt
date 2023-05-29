@@ -3,7 +3,7 @@ DECLARAÇÃO
 	preferencial: texto;
 	nrpref: inteiro;
 	nrnormal: inteiro;
-	i: inteiro;
+	i: inteiro
 	
 	INICIO:
 	npref = 0
